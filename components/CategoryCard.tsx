@@ -31,10 +31,10 @@ export default function CategoryCard({ category }: CategoryCardProps) {
         </p>
         
         {/* View Products Button */}
-        <div className="flex items-center justify-center text-primary-600 font-medium group-hover:text-primary-700 transition-colors">
+{/*         <div className="flex items-center justify-center text-primary-600 font-medium group-hover:text-primary-700 transition-colors">
           <span className="text-sm">View Products</span>
           <ArrowRight className="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" />
-        </div>
+        </div> */}
       </div>
     </motion.div>
   );
